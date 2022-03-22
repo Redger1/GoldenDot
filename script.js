@@ -133,7 +133,7 @@ function CBR_XML_Daily_Ru(rates) {
             const popupLinks = document.querySelectorAll('.popup__link');
             const body = document.querySelector('body');
 
-            let unlock = true; // Переменная для блокировки скролла
+            let unlock = true; // Переменная для предотвращения двойных нажатий
 
             const timeout = 800;
 
