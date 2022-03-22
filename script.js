@@ -213,7 +213,6 @@ function CBR_XML_Daily_Ru(rates) {
 
             // Закрыте попапа кнопкой Esc
             document.addEventListener('keydown', function (e) {
-                console.log(e.key);
                 if (e.key === "Escape") {
                     const popupActive = document.querySelector('.popup.open');;
                     popupClose(popupActive);
